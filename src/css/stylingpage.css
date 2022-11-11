@@ -1,0 +1,25 @@
+.comeSignUp{
+    display:flex;
+    flex-direction:column;
+}
+.signup{
+    display:flex;
+    flex-direction:column;
+}
+.signUpHeader{
+    background-color: rgb(79, 123, 245);
+    color: ghostwhite;
+    font-size: 30px;
+    text-align: center;
+
+}
+.signUpForm{
+    display:flex;
+    flex-direction:column;
+    padding: 10px 10px;
+}
+.signUpBottom{
+    text-align: center;
+    padding: 10px 20px;
+    color: #ccc8c8
+}

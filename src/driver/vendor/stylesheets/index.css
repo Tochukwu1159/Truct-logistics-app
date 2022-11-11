@@ -1,0 +1,27 @@
+
+.login__form{
+    box-shadow: 0px 1px 5px #d1d0d0;
+    padding: 20px;
+}
+.form__container{
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    align-items: center;
+}
+.header__navbarContainer{
+    box-shadow: 0px 1px 5px rgb(209, 208, 208);
+}
+.submitbtncustom{
+    background-color: #f8a50b;
+    border: none;
+    border-radius: 2px;
+}
+.submitbtncustom:hover{
+    background-color: #e69a0e;
+    background-color: rgb(251, 218, 215);
+}
+.login__form input:focus{
+    box-shadow: 1px 1px 10px #f8a50b83;
+    border: 1px solid #f8a50b52;
+}

@@ -1,0 +1,24 @@
+.table-responsive {
+    display: none;
+}
+
+.bg-gradient-primary {
+    background-color: #2a2a29;
+    background-image: linear-gradient(180deg, #2a2a29 10%, #2a2a29 100%);
+    background-size: cover;
+}
+
+
+  
+@media only screen and (max-width: 660px) {
+    .paper__cntDetails {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .paper__cntDetails div {
+        width: 100% !important;
+        padding: 5px 0;
+    }
+}

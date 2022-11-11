@@ -1,0 +1,184 @@
+body{
+    overflow-x: hidden;
+}
+.header__contact{
+    background-color: #2a2a29;
+    width: 100%;
+    padding: 15px 0;
+    color: whitesmoke;
+}
+.contact__icons{
+    color:#f8a50b;
+}
+.contact__iconsSet div{
+    float: right;
+}
+.contact__iconsSet div a{
+    color: whitesmoke;
+    margin: 0 10px;
+}ó
+.header__navbarContainer{
+    background-color: white;
+}
+.banner{
+    height: 100%;
+    background-image: url(https://santhemes.com/blackgallery/convertar/html/images/slider_3.jpg);
+    background-image: url(https://media.istockphoto.com/photos/business-logistics-and-transportation-concept-of-containers-cargo-picture-id1273907202?b=1&k=6&m=1273907202&s=170667a&w=0&h=KtPtm8I5EmnTDkHtJWmW6oPmMBEKcIMrHRX1c6UK85Q=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner__overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.button__link {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4); */
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    /* box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2); */
+    background: #f8a50b;
+    color: #FFF;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+.banner__content__left{
+    color: whitesmoke;
+    padding: 5% 0;
+}
+.banner__content__left h1{
+    margin-bottom: 20px;
+}
+.banner__content__left p{
+    margin-bottom: 40px;
+}
+.banner__parentContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+.banner__content__right__cnt{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner__content__right__cnt .card{
+    height: 400px;
+    width: 23rem;
+}
+.cnt__card{
+    height: 100%;
+    padding-bottom: 20px;
+    background-color: #f8a50b;
+    
+}
+.cnt__card__cnt{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.cnt__card i{
+    font-size: 100px;
+}
+
+.cnt__card__cnt .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carddescription{
+    margin-top: 50px;
+}
+.carddecription__text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: x-large;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+.carddescription .row{
+    padding: 0 5%;
+}
+.bookingsection{
+    /* height: 100%; */
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+.bookingsection__cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bookingsection__cnt .bi-truck{
+    font-size: 130px;
+}
+footer{
+    background-color: #2a2a29;
+    height: 100%;
+    padding: 30px;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+.footer__sections span{
+    font-size: 15px;
+}
+.footer__sections div{
+    font-size: 13px;
+}
+.copyright__section{
+    text-align: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .contact__iconsSet div{
+        float: none;
+    }
+    .banner__content__right__cnt{
+        justify-content: center;
+        /* height: 400px; */
+
+    }
+    .banner__content__right__cnt .card{
+        width: 100%;
+    }
+    .banner__content__left{
+        margin-bottom: 45px;
+        padding: 0 20px;
+    }
+    .cnt__card__cnt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cnt__card__cnt .row{
+        width: 50%!important;
+    }
+    .cnt__card__cnt .row .col-sm-12{
+        display: flex;
+        justify-content: center;
+    }
+    .carddescription .row{
+        padding: 0 0;
+    }
+    .carddescription .col-md-4 .card{
+        margin-bottom: 30px;
+    }
+    .footer__top .col-sm-12{
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+}
+@media only screen and (max-width: 991px){
+    
+}

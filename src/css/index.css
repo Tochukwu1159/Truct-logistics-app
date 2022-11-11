@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(246, 243, 243);
+}
+footer{
+    position: sticky;
+    top: 100%;
+}
+.login__form {
+  box-shadow: 0px 1px 5px #d1d0d0;
+  padding: 20px;
+}
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.header__navbarContainer {
+  box-shadow: 0px 1px 5px rgb(209, 208, 208);
+}
+.submitbtncustom {
+  background-color: #f8a50b;
+  border: none;
+  border-radius: 100px;
+}
+.submitbtncustom:hover {
+  background-color: #e69a0e;
+}
+.login__form input:focus {
+  box-shadow: 1px 1px 10px #f8a50b83;
+  border: 1px solid #f8a50b52;
+}
+.login__form select:focus {
+  box-shadow: 1px 1px 10px #f8a50b83;
+  border: 1px solid #f8a50b52;
+}
+.login__form textarea:focus {
+  box-shadow: 1px 1px 10px #f8a50b83;
+  border: 1px solid #f8a50b52;
+}
